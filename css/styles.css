@@ -1,0 +1,176 @@
+
+body{
+  font-family: "Montserrat";
+}
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+}
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-size: 1.3rem;
+}
+p{
+  color: #8f8f8f;
+}
+/* Heading section */
+.heading-line{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.inner{
+  padding: 0;
+}
+.title-img{
+width: 60%;
+/* Equal to rotateZ(45deg) */
+  transform: rotate(15deg);
+  margin-left: 25%;
+}
+#title{
+  color: white;
+  background-color: #ff4c68;
+  position: absolute;
+}
+
+/* Naigation Bar */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+/* Download Button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Features Section  */
+
+#features{
+  padding: 7% 15%;
+  background-color: #ffffff;
+    position: relative;
+    top: 600px;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: #fa5771;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #f77c8f;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+  position: relative;
+  text-align: center;
+  background-color: #fa5771;
+  color: #ffffff;
+    top: 600px;
+}
+.carousel-item{
+    padding: 5% 15%;
+}
+.test-name{
+  color: white;
+
+}
+.test-dogs{
+  width: 30%;
+  height: 30%;
+  border-radius: 100%;
+  padding: 2%;
+}
+
+/* Pricing Section  */
+#pricing{
+  position: relative;
+  padding: 7%;
+  text-align: center;
+  font-weight: bold;
+      top: 600px;
+}
+.card{
+  width: 20rem;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+.fw-bold{
+  margin-top: 18px;
+
+}
+/* CTA Section */
+#cta{
+  position: relative;
+  top: 600px;
+  background-color: #fa5771;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading{
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+
+}
+
+/* Footer Section */
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+  position: relative;
+  top: 600px;
+}
+.social-icon {
+  margin: 10px 20px;
+}
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+    position: static;
+  }
+  .title-img{
+    transform: rotate(0);
+  }
+  #features{
+    top:0;
+  }
+  #testimonials{
+    top: 0;
+  }
+  #pricing{
+    top: 0;
+  }
+  #cta{
+    top: 0;
+  }
+  #footer{
+    top: 0;
+  }
+}
