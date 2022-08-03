@@ -35,7 +35,7 @@ width: 60%;
 #title{
   color: white;
   background-color: #ff4c68;
-  position: absolute;
+/*   position: absolute; */
 }
 
 /* Naigation Bar */
@@ -64,8 +64,8 @@ width: 60%;
 #features{
   padding: 7% 15%;
   background-color: #ffffff;
-    position: relative;
-    top: 600px;
+/*     position: relative;
+    top: 600px; */
 }
 
 .feature-box{
@@ -83,11 +83,11 @@ width: 60%;
 /* Testimonials Section */
 
 #testimonials{
-  position: relative;
+/*   position: relative; */
   text-align: center;
   background-color: #fa5771;
   color: #ffffff;
-    top: 600px;
+/*     top: 600px; */
 }
 .carousel-item{
     padding: 5% 15%;
@@ -105,11 +105,11 @@ width: 60%;
 
 /* Pricing Section  */
 #pricing{
-  position: relative;
+/*   position: relative; */
   padding: 7%;
   text-align: center;
   font-weight: bold;
-      top: 600px;
+/*       top: 600px; */
 }
 .card{
   width: 20rem;
@@ -124,8 +124,8 @@ width: 60%;
 }
 /* CTA Section */
 #cta{
-  position: relative;
-  top: 600px;
+/*   position: relative;
+  top: 600px; */
   background-color: #fa5771;
   color: white;
   padding: 7% 15%;
@@ -144,8 +144,8 @@ width: 60%;
 #footer{
   padding: 7% 15%;
   text-align: center;
-  position: relative;
-  top: 600px;
+/*   position: relative; */
+/*   top: 600px; */
 }
 .social-icon {
   margin: 10px 20px;
@@ -153,12 +153,12 @@ width: 60%;
 @media (max-width:1028px){
   #title{
     text-align: center;
-    position: static;
+/*     position: static; */
   }
   .title-img{
     transform: rotate(0);
   }
-  #features{
+/*   #features{
     top:0;
   }
   #testimonials{
@@ -172,5 +172,5 @@ width: 60%;
   }
   #footer{
     top: 0;
-  }
+  } */
 }
